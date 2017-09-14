@@ -1,0 +1,14 @@
+.titling svg{
+    width: 100px;
+    height: 50px;
+    
+}
+.titling p{
+    font-size: 0.8rem;
+}
+nav a{
+    color: black!important;
+}
+.testimonials blockquote{
+    border: none!important;
+}
