@@ -1,3 +1,35 @@
+
+body {
+    font: 1em/1.6 Fira Sans MSU, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696c74;
+    background: #fff;
+}
+::-moz-selection {
+    background: #222;
+    color: #fff;
+    text-shadow: none
+}
+
+::selection {
+    background: #222;
+    color: #fff;
+    text-shadow: none
+}
+nav{
+    font-family: inherit;
+}
+nav a{
+   
+    font-weight: 300;
+    white-space: nowrap!important;
+    font-size: 1rem!important;
+    line-height: 4em;
+    font-family: inherit;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #696c74!important;
+}
+
 .titling svg{
     width: 100px;
     height: 50px;
@@ -6,9 +38,78 @@
 .titling p{
     font-size: 0.8rem;
 }
-nav a{
-    color: black!important;
-}
+
 .testimonials blockquote{
     border: none!important;
 }
+a .btn{
+    border-radius: 40px!important;
+}
+.t img{
+    height: 60vh;
+}
+.service .card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card{
+    overflow: hidden;
+    
+}
+.card .img{
+    padding: 0px!important;
+    margin-bottom:-10px;
+    
+}
+/****TYPOGRAPHY****/
+html{
+    
+}
+.caption{
+    position: absolute;
+    z-index: 9;
+    width: 150px;
+    left: 30px;
+    bottom: 30px;
+    
+}
+.caption-r{
+    position: absolute;
+    z-index: 9;
+    width: 150px;
+    right: 30px;
+    bottom: 30px;
+    
+}
+.intro{
+    margin-top: 100px;
+    position: relative;
+    
+}
+.intro span{
+    padding: 0 15px;
+    position: relative;
+    z-index: 10;
+    left: 5vw;
+    color: 
+}
+
+.intro:before{
+    background: blue;
+    content: " ";
+    display: block;
+    position: absolute;
+    height: 1px;
+    top: 50%;
+    width: 100%;
+    
+}
+.intro:before{
+    left: 0;
+}
+
+
+
+
+
+
